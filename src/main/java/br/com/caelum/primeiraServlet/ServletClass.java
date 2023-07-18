@@ -29,11 +29,10 @@ public class ServletClass extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
 		
-		
 		out.print("<html>");
 		out.print("<head>");
 		out.print("<body>");
-		out.print("<h1>Hello Servlet doo eddduardo</h1>");
+		out.print("<h1>Hello Servlet do eddduardo</h1>");
 		out.print("exemplo de texto");
 		out.print("</body>");
 		out.print("</html>");
